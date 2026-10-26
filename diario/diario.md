@@ -56,3 +56,12 @@ município sem leitos (zero real). Regressão logística balanceada na validaç�
 - Relatório: seção 4.5 reescrita com os resultados; tabela dos 17 informes e Figura 5.
 
 **Pendências.** Revisão manual da amostra de 30 menções (`informes_amostra_revisao.csv`); dicionário XLSX do IBGE; endereço do GitHub.
+
+2026-10-26 — Etapa 3: método aplicado, teste aberto e produto (Guilherme e Gabriel)
+Notebook 07: Regressão Logística (Etapa 2) comparada com Random Forest na validação (mesmo pré-processamento, mesma semente 42, divisão 948.352 / 237.089). Modelo escolhido pela maior AUC-PR (Random Forest: 0,152 contra 0,080).
+Limiar escolhido por meta de recall de 70% (maior limiar que cumpre a meta): 0,463, no lugar do 0,5 padrão. Custo mostrado na Figura 20: recall de 90% exigiria alertar 52% dos casos.
+Conjunto de teste (296.361 casos, 7.558 graves) aberto uma única vez: recall 71,8%, precisão 7,9%, F1 0,142, AUC-PR 0,152, AUC-ROC 0,824, acurácia 77,8%; 23,3% dos casos alertados. Resultado próximo ao da validação.
+Produto: escore de risco em duas faixas (alto/baixo). Faixa de alto risco: 7,9% de graves, 71,8% dos graves capturados em 23,3% dos casos. Por 1.000 notificações: 25,5 graves esperados, 233 alertas, 18,3 graves capturados.
+Modelo de negócios e esboço de storytelling (quatro atos) no relatório, Seções 10 e 11. Relatório cumulativo das Etapas 2 e 3 em reports/.
+
+Pendências. Saneamento do IBGE (mapeamento do dicionário ainda não aprovado); validação do painel com profissionais de saúde; teste em outra temporada; storytelling completo.
