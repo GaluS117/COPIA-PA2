@@ -1,0 +1,40 @@
+{
+  "campos": {
+    "modelo_escolhido": "Random Forest",
+    "recall_alvo": "70%",
+    "limiar": "0,463",
+    "n_treino / n_validacao": "948.352 / 237.089",
+    "n_teste / graves_teste": "296.361 / 7.558 (2,55%)",
+    "recall_teste": "71,8%",
+    "precisao_teste": "7,9%",
+    "f1_teste": "0,142",
+    "auc_pr_teste": "0,152",
+    "auc_roc_teste": "0,824",
+    "acuracia_teste": "77,8%",
+    "alertas_teste": "23,3%",
+    "VP / FP / FN / VN": "5.428 / 63.544 / 2.130 / 225.259",
+    "por_mil (graves esperados / alertas / graves capturados)": "25,5 / 233 / 18,3"
+  },
+  "validacao": [
+    {
+      "index": "Regressão Logística",
+      "limiar": 0.4645,
+      "recall": 0.7,
+      "precisao": 0.05,
+      "f1": 0.0934,
+      "auc_roc": 0.7364,
+      "auc_pr": 0.0796,
+      "alertas_pct": 0.3569
+    },
+    {
+      "index": "Random Forest",
+      "limiar": 0.4632,
+      "recall": 0.7,
+      "precisao": 0.077,
+      "f1": 0.1387,
+      "auc_roc": 0.8172,
+      "auc_pr": 0.152,
+      "alertas_pct": 0.2319
+    }
+  ]
+}

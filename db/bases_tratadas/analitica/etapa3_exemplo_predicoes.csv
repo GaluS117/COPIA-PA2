@@ -1,0 +1,9 @@
+id_registro,idade_anos,VOMITO,LEUCOPENIA,HIPERTENSA,DIABETES,escore,faixa,evolucao_real (1=alarme/grave)
+440970,32.0,1.0,0.0,0.0,0.0,0.48,alto risco,0
+1320176,73.0,1.0,0.0,0.0,0.0,0.46,alto risco,0
+169849,19.0,1.0,0.0,0.0,0.0,0.47,alto risco,0
+20477,17.0,0.0,0.0,0.0,0.0,0.49,alto risco,0
+137847,51.0,0.0,0.0,0.0,0.0,0.33,baixo risco,0
+803064,23.0,1.0,0.0,0.0,0.0,0.39,baixo risco,0
+1055068,20.0,1.0,0.0,0.0,0.0,0.32,baixo risco,0
+887627,23.0,0.0,0.0,0.0,0.0,0.37,baixo risco,0

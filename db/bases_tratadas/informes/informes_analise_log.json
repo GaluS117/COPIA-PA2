@@ -1,0 +1,19 @@
+{
+  "entrada": "db\\bases_tratadas\\informes\\informes_corpus_2025.csv",
+  "etapas": {
+    "carregamento": {
+      "informes": 17,
+      "paginas_corpus": 343,
+      "paginas_analisadas": 120
+    },
+    "exportacao": {
+      "informes_frequencia_termos.csv": "db\\bases_tratadas\\informes\\informes_frequencia_termos.csv",
+      "informes_mencoes.csv": "db\\bases_tratadas\\informes\\informes_mencoes.csv",
+      "informes_tfidf_por_informe.csv": "db\\bases_tratadas\\informes\\informes_tfidf_por_informe.csv",
+      "informes_indicadores_citados.csv": "db\\bases_tratadas\\informes\\informes_indicadores_citados.csv",
+      "informes_amostra_revisao.csv": "db\\bases_tratadas\\informes\\informes_amostra_revisao.csv",
+      "informes_sintese_por_informe.csv": "db\\bases_tratadas\\informes\\informes_sintese_por_informe.csv"
+    }
+  },
+  "executado_em": "2026-10-23 16:07"
+}

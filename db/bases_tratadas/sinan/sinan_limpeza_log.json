@@ -1,0 +1,58 @@
+{
+  "entrada": "db\\bases_brutas\\sinan\\dados\\DENGBR25.csv",
+  "saida": "db\\bases_tratadas\\sinan\\sinan_dengue_2025_tratado.csv",
+  "etapas": {
+    "identidade": {
+      "tamanho_MB": 456.8,
+      "sha256": "2b89c57121d49c0352eebf5220e0e5528ae28341d707a254803c64c60ecf3a51",
+      "encoding": "utf-8",
+      "separador": ",",
+      "bom": false
+    },
+    "diagnostico": {
+      "linhas": 1643215,
+      "colunas": 121,
+      "duplicatas_exatas": 620
+    },
+    "carregamento": {
+      "linhas_apos_remover_duplicatas_exatas": 1642595,
+      "colunas_carregadas": 35
+    },
+    "alvo": {
+      "total_original": 1643215,
+      "duplicatas_exatas_removidas": 620,
+      "dengue_10": 1444010,
+      "dengue_sinais_alarme_11": 35105,
+      "dengue_grave_12": 2687,
+      "inconclusivo_8": 157976,
+      "codigo_0_invalido": 1642,
+      "descartado_5": 0,
+      "sem_classificacao_nulo": 1175,
+      "excluidos_por_classificacao": 160793,
+      "base_final_elegivel": 1481802
+    },
+    "aplicacao": {
+      "idades_invalidas_para_nulo": 36,
+      "dias_negativos_para_nulo": 0,
+      "dias_acima_180_para_nulo": 1937,
+      "possiveis_duplicidades_marcadas": 72659
+    },
+    "validacao": {
+      "id_registro unico": true,
+      "alvo so 0/1": true,
+      "alvo coerente com CLASSI_FIN": true,
+      "idade 0-120": true,
+      "dias_ate_notificacao 0-180": true,
+      "SEM_PRI em 2025": true,
+      "cod_municipio 6 digitos": true,
+      "sem nulos novos em sintomas (alem de 9/nulo original)": true
+    },
+    "exportacao": {
+      "linhas": 1481802,
+      "colunas": 48,
+      "tamanho_MB": 362.2,
+      "auditoria_colunas": 73
+    }
+  },
+  "executado_em": "2026-10-23 15:41"
+}

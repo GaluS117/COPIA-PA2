@@ -1,0 +1,47 @@
+{
+  "casos_elegiveis_total": 1481802,
+  "desenvolvimento": 1185441,
+  "teste_reservado": 296361,
+  "treino": 948352,
+  "validacao": 237089,
+  "pct_positivos": 2.55,
+  "seed": 42,
+  "integracao": {
+    "casos": 1185441,
+    "sem_correspondencia_ibge": 8,
+    "municipios_sem_ibge": [
+      "350000",
+      "410000",
+      "510183"
+    ],
+    "casos_em_municipio_sem_leitos_(zero_real)": 86316,
+    "pct_casos_em_municipio_sem_leitos": 7.28,
+    "indicadores_saneamento": []
+  },
+  "metricas_validacao": {
+    "SINAN isolado": {
+      "acuracia": 0.7002,
+      "acuracia_balanceada": 0.6616,
+      "precisao": 0.0518,
+      "recall": 0.621,
+      "f1": 0.0956,
+      "auc_roc": 0.7212,
+      "auc_pr": 0.0766
+    },
+    "SINAN + CNES + IBGE": {
+      "acuracia": 0.708,
+      "acuracia_balanceada": 0.677,
+      "precisao": 0.0549,
+      "recall": 0.6443,
+      "f1": 0.1012,
+      "auc_roc": 0.7364,
+      "auc_pr": 0.0796
+    }
+  },
+  "versoes": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "sklearn": "1.9.1",
+    "matplotlib": "3.11.2"
+  }
+}

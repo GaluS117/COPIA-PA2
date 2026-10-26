@@ -1,0 +1,11 @@
+# Versões conferidas na execução (Python 3.12)
+numpy==2.4.4
+pandas==3.0.2
+pyarrow==25.0.1
+matplotlib==3.10.8
+scikit-learn==1.8.0
+pdfplumber==0.11.9
+openpyxl==3.1.5
+jupyter
+nbformat
+nbclient

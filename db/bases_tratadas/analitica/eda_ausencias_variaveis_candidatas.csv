@@ -1,0 +1,30 @@
+variavel,%_nulo_bruto,%_ignorado_(9),%_nao_se_aplica
+FEBRE,0.0,incluído no nulo,0.0
+MIALGIA,0.0,incluído no nulo,0.0
+CEFALEIA,0.0,incluído no nulo,0.0
+EXANTEMA,0.0,incluído no nulo,0.0
+VOMITO,0.0,incluído no nulo,0.0
+NAUSEA,0.0,incluído no nulo,0.0
+DOR_COSTAS,0.0,incluído no nulo,0.0
+CONJUNTVIT,0.0,incluído no nulo,0.0
+ARTRITE,0.0,incluído no nulo,0.0
+ARTRALGIA,0.0,incluído no nulo,0.0
+PETEQUIA_N,0.0,incluído no nulo,0.0
+LEUCOPENIA,0.0,incluído no nulo,0.0
+LACO,0.0,incluído no nulo,0.0
+DOR_RETRO,0.0,incluído no nulo,0.0
+DIABETES,0.005,incluído no nulo,0.0
+HEMATOLOG,0.005,incluído no nulo,0.0
+HEPATOPAT,0.005,incluído no nulo,0.0
+RENAL,0.005,incluído no nulo,0.0
+HIPERTENSA,0.005,incluído no nulo,0.0
+ACIDO_PEPT,0.005,incluído no nulo,0.0
+AUTO_IMUNE,0.006,incluído no nulo,0.0
+sexo,0.0,0.07,0.0
+gestante,0.011,6.82,54.31
+raca,0.0,13.32,0.0
+escolaridade,18.807,29.7,6.16
+idade_anos,0.003,,
+dias_ate_notificacao,0.131,,
+cod_municipio,0.0,,
+ocupacao_cbo,69.883,,

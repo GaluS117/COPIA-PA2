@@ -1,0 +1,94 @@
+{
+  "entradas": [
+    "db\\bases_brutas\\ibge\\Agregados_por_municipios_basico_BR.csv",
+    "db\\bases_brutas\\ibge\\Agregados_por_municipios_caracteristicas_domicilio1_BR.csv",
+    "db\\bases_brutas\\ibge\\Agregados_por_municipios_caracteristicas_domicilio2_BR.csv",
+    "db\\bases_brutas\\ibge\\Agregados_por_municipios_caracteristicas_domicilio3_BR.csv"
+  ],
+  "saida": "db\\bases_tratadas\\ibge\\ibge_municipio_2022_tratado.csv",
+  "etapas": {
+    "identidade": {
+      "basico": {
+        "tamanho_MB": 1.2,
+        "sha256": "082997193a49261fa6ae6a7abd86425e8147185a2cf17c2aef6179ca2e615e5b",
+        "shape": [
+          5570,
+          26
+        ]
+      },
+      "domicilio1": {
+        "tamanho_MB": 2.6,
+        "sha256": "97d98f503d19352010d4de379232578112c635083d9a2191f29edb75fec6f2bb",
+        "shape": [
+          5570,
+          91
+        ]
+      },
+      "domicilio2": {
+        "tamanho_MB": 10.9,
+        "sha256": "40166f086cfc43b24e31b5f299f7a2ff30176dc0576f2d9d5545d72ea2517dec",
+        "shape": [
+          5570,
+          408
+        ]
+      },
+      "domicilio3": {
+        "tamanho_MB": 4.7,
+        "sha256": "33a9622ad8794cea4168d8f95a1f6ab875c94d37b9d1df85a3d47bb90301dd41",
+        "shape": [
+          5570,
+          150
+        ]
+      }
+    },
+    "aplicacao": {
+      "variaveis_basico": {
+        "v0001": "populacao",
+        "AREA_KM2": "area_km2",
+        "v0007": "domicilios_ocupados",
+        "v0005": "media_moradores"
+      },
+      "indicadores_domiciliares": [],
+      "problemas": []
+    },
+    "validacao": {
+      "uma linha por cod_municipio": true,
+      "5570 municipios": true,
+      "cod_municipio 6 digitos": true,
+      "sem nulos em populacao/area/domicilios/media": true,
+      "populacao > 0": true,
+      "densidade finita": true
+    },
+    "compatibilidade_sinan": {
+      "casos_sinan": 1481802,
+      "casos_com_municipio_no_ibge": 1481793,
+      "casos_sem_correspondencia": 9,
+      "casos_com_codigo_nulo": 5,
+      "codigos_sem_correspondencia": {
+        "530160": 1,
+        "510183": 1,
+        "410000": 1,
+        "350000": 1
+      },
+      "municipios_do_sinan_cobertos": 4826,
+      "municipios_do_sinan": 4830
+    },
+    "exportacao": {
+      "linhas": 5570,
+      "colunas": [
+        "cod_municipio",
+        "cd_mun_ibge7",
+        "nome_municipio",
+        "uf",
+        "regiao",
+        "populacao",
+        "area_km2",
+        "domicilios_ocupados",
+        "media_moradores",
+        "densidade_hab_km2"
+      ],
+      "tamanho_KB": 450
+    }
+  },
+  "executado_em": "2026-10-23 15:57"
+}

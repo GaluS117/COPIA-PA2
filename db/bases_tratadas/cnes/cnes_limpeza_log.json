@@ -1,0 +1,42 @@
+{
+  "entrada": "db\\bases_brutas\\cnes\\Leitos_2025.csv",
+  "saida": "db\\bases_tratadas\\cnes\\cnes_municipio_2025_tratado.csv",
+  "etapas": {
+    "identidade": {
+      "tamanho_MB": 28.7,
+      "sha256": "bbb924a621165230dabc915e164f01b19d25baa83735bc57f0051643f313edd5",
+      "encoding": "latin-1",
+      "separador": ";"
+    },
+    "aplicacao": {
+      "linhas_estabelecimento": 86147,
+      "inconsistencias_marcadas": 0,
+      "nulos_leito": 0,
+      "linhas_municipio_competencia": 42552,
+      "municipios": 3577
+    },
+    "validacao": {
+      "chave (cod_municipio, competencia) unica": true,
+      "soma de leitos preservada": true,
+      "soma de UTI preservada": true,
+      "12 competencias": true,
+      "cod_municipio 6 digitos": true,
+      "leitos_sus <= leitos (municipio)": true,
+      "sem negativos": true
+    },
+    "exportacao": {
+      "linhas": 42552,
+      "colunas": [
+        "cod_municipio",
+        "competencia",
+        "n_estabelecimentos",
+        "leitos",
+        "leitos_sus",
+        "leitos_uti",
+        "leitos_uti_sus"
+      ],
+      "tamanho_KB": 1176
+    }
+  },
+  "executado_em": "2026-10-23 15:54"
+}

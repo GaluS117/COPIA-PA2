@@ -1,0 +1,213 @@
+{
+  "entrada": "db\\bases_brutas\\informes",
+  "saida": "db\\bases_tratadas\\informes\\informes_corpus_2025.csv",
+  "n_informes": 17,
+  "etapas": {
+    "identidade": {
+      "Informe Semanal nº 01 - COE Dengue e outras Arboviroses - SE 1 a 4  - 27 de janeiro.pdf": {
+        "tamanho_KB": 2248,
+        "sha256": "9ef9796583342cef0a799bdb7ddc0da21c242b210a224d19e35ba03bb09e70fc",
+        "paginas": 21,
+        "informe_num": 1,
+        "se_inicio": 1,
+        "se_fim": 4,
+        "ano_se": 2025,
+        "data_informe": "2025-01-27"
+      },
+      "Informe Semanal nº 02 - COE Dengue e outras Arboviroses - SE 1 a 8 - 24 de fevereiro.pdf": {
+        "tamanho_KB": 2326,
+        "sha256": "6f9661d111d3a88d13a951e02a82acf0426c3ddedd2fec9196ab4a3cd8b77696",
+        "paginas": 22,
+        "informe_num": 2,
+        "se_inicio": 1,
+        "se_fim": 8,
+        "ano_se": 2025,
+        "data_informe": "2025-02-24"
+      },
+      "Informe Semanal nº 03 - COE Dengue e outras Arboviroses - SE 1 a 9 - 08 de março.pdf": {
+        "tamanho_KB": 2009,
+        "sha256": "7f92d749ff5418f33b10346063b7a0a6a52874dd5f9d1078f359316d3950398b",
+        "paginas": 20,
+        "informe_num": 3,
+        "se_inicio": 1,
+        "se_fim": 9,
+        "ano_se": 2025,
+        "data_informe": "2025-03-08"
+      },
+      "Informe Semanal nº 04 - COE Dengue e outras Arboviroses - SE 1 a 10.pdf": {
+        "tamanho_KB": 1719,
+        "sha256": "47a4b6f5268bf7e3b421ac35808f5354b3e76d1245e2bce11603e693f4c8cc29",
+        "paginas": 20,
+        "informe_num": 4,
+        "se_inicio": 1,
+        "se_fim": 10,
+        "ano_se": 2025,
+        "data_informe": "2025-03-10"
+      },
+      "Informe Semanal nº 05 - COE Dengue e outras Arboviroses - SE 1 a 11.pdf": {
+        "tamanho_KB": 1563,
+        "sha256": "5201b27383af974b39752e5eeb5a7fc74af4e79af0dbcf5eb26346f43a055a98",
+        "paginas": 20,
+        "informe_num": 5,
+        "se_inicio": 1,
+        "se_fim": 11,
+        "ano_se": 2025,
+        "data_informe": "2025-03-17"
+      },
+      "Informe Semanal nº 06 - COE Dengue e outras Arboviroses - SE 1 a 12.pdf": {
+        "tamanho_KB": 2060,
+        "sha256": "d3cd67549da3457adfc522a1d77c109cadb4a37ff1b20d3f553c7ffac92a27b5",
+        "paginas": 20,
+        "informe_num": 6,
+        "se_inicio": 1,
+        "se_fim": 12,
+        "ano_se": 2025,
+        "data_informe": "2025-03-24"
+      },
+      "Informe Semanal nº 07 - COE Dengue e outras Arboviroses - SE 1 a 13.pdf": {
+        "tamanho_KB": 2016,
+        "sha256": "06e1903e1f6c650921348fd8980443857f987d7c3540a64f8f39188616651905",
+        "paginas": 20,
+        "informe_num": 7,
+        "se_inicio": 1,
+        "se_fim": 13,
+        "ano_se": 2025,
+        "data_informe": "2025-03-31"
+      },
+      "Informe Semanal nº 08 - COE Dengue e outras Arboviroses - SE 1 a 13.pdf": {
+        "tamanho_KB": 2326,
+        "sha256": "173768e600e55c93fea83340fd90bb66a19652f387e581fc614b3f8475873ba2",
+        "paginas": 20,
+        "informe_num": 8,
+        "se_inicio": 1,
+        "se_fim": 14,
+        "ano_se": 2025,
+        "data_informe": "2025-04-07"
+      },
+      "Informe Semanal nº 09 - COE Dengue e outras Arboviroses - SE 1 a 15.pdf": {
+        "tamanho_KB": 2226,
+        "sha256": "4aa24fba6b1cbd79caac597c8cdc0a90a651bf0bec030b33a063590f7c004a25",
+        "paginas": 20,
+        "informe_num": 9,
+        "se_inicio": 1,
+        "se_fim": 15,
+        "ano_se": 2025,
+        "data_informe": "2025-04-14"
+      },
+      "Informe Semanal nº 10 - COE Dengue e outras Arboviroses - SE 1 a 16.pdf": {
+        "tamanho_KB": 2318,
+        "sha256": "90b05eea5bed01c3c6f4d0c201255798e2b93751f45f85e8fe82216abf180fc6",
+        "paginas": 20,
+        "informe_num": 10,
+        "se_inicio": 1,
+        "se_fim": 16,
+        "ano_se": 2025,
+        "data_informe": "2025-04-22"
+      },
+      "Informe Semanal nº 11 - COE Dengue e outras Arboviroses - SE 1 a 17 - 13 de maio.pdf": {
+        "tamanho_KB": 2162,
+        "sha256": "e7192265d9773bd0141acc981b347487cc8f2f3e3d33d47d555fa22d45548504",
+        "paginas": 20,
+        "informe_num": 11,
+        "se_inicio": 1,
+        "se_fim": 17,
+        "ano_se": 2025,
+        "data_informe": "2025-04-28"
+      },
+      "Informe Semanal nº 12 - COE Dengue e outras Arboviroses - SE 1 a 18 - 15 de maio.pdf": {
+        "tamanho_KB": 2407,
+        "sha256": "be2052cf6c9e2af7ce506de2c81dde89e5fa9b088be4ef5592702a0e015e1f79",
+        "paginas": 20,
+        "informe_num": 12,
+        "se_inicio": 1,
+        "se_fim": 18,
+        "ano_se": 2025,
+        "data_informe": "2025-05-05"
+      },
+      "Informe semanal nº 13.pdf": {
+        "tamanho_KB": 2246,
+        "sha256": "d9efe537e84af3fda2ad79d1bb11a88d8f734450fa88cf36a8dd8a70faaf8e65",
+        "paginas": 20,
+        "informe_num": 13,
+        "se_inicio": 1,
+        "se_fim": 19,
+        "ano_se": 2025,
+        "data_informe": "2025-05-12"
+      },
+      "Informe Semanal nº 14.pdf": {
+        "tamanho_KB": 2132,
+        "sha256": "d788dfd3fa47484f9ac1fd7bd0afc3a2c6e3e66fdb3b1663b42454a4cb7f51c2",
+        "paginas": 20,
+        "informe_num": 14,
+        "se_inicio": 1,
+        "se_fim": 20,
+        "ano_se": 2025,
+        "data_informe": "2025-05-19"
+      },
+      "Informe Semanal nº 15.pdf": {
+        "tamanho_KB": 2218,
+        "sha256": "6263e9603f609e7684145c0fc70f87d12efc168126a5c45957d68ef0eea4ecf3",
+        "paginas": 20,
+        "informe_num": 15,
+        "se_inicio": 1,
+        "se_fim": 21,
+        "ano_se": 2025,
+        "data_informe": "2025-05-26"
+      },
+      "Informe Semanal nº 16.pdf": {
+        "tamanho_KB": 2301,
+        "sha256": "bb6d6605259c82442ecc0293ef973303f88c198fe154b89bd4336053b6ab2dd3",
+        "paginas": 20,
+        "informe_num": 16,
+        "se_inicio": 1,
+        "se_fim": 22,
+        "ano_se": 2025,
+        "data_informe": "2025-06-02"
+      },
+      "Informe Semanal nº 17 (1).pdf": {
+        "tamanho_KB": 2375,
+        "sha256": "1515a6b2064fbc0643de362b7afda3b7ac253fc7ad7c0da33137bd5cf8f2a101",
+        "paginas": 20,
+        "informe_num": 17,
+        "se_inicio": 1,
+        "se_fim": 23,
+        "ano_se": 2025,
+        "data_informe": "2025-06-09"
+      }
+    },
+    "aplicacao": {
+      "paginas": 343,
+      "linhas_removidas": 976,
+      "titulos_secao": 138,
+      "paginas_com_secao_dengue": 120
+    },
+    "validacao": {
+      "informe e pagina preenchidos": true,
+      "(informe, pagina) unico": true,
+      "texto_limpo <= texto_original": true,
+      "secao_dengue so em informes com titulo de dengue": true,
+      "paginas sem texto marcadas": true
+    },
+    "exportacao": {
+      "linhas": 343,
+      "colunas": [
+        "informe",
+        "informe_num",
+        "se_inicio",
+        "se_fim",
+        "ano_se",
+        "data_informe",
+        "pagina",
+        "sem_texto",
+        "n_caracteres",
+        "texto_original",
+        "texto_limpo",
+        "secao_dengue",
+        "tipo_secao_dengue",
+        "texto_dengue"
+      ],
+      "tamanho_KB": 878
+    }
+  },
+  "executado_em": "2026-10-23 16:00"
+}
