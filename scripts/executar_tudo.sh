@@ -8,4 +8,5 @@ python scripts/03_limpeza_ibge.py
 python scripts/04_limpeza_informes.py
 python scripts/05_integracao_eda_modelo.py  # 2-5. EDA, preparação, treinamento, métricas
 python scripts/06_analise_informes.py       # 6. análise textual
+python scripts/07_modelagem.py      # Etapa 3: comparação de métodos, limiar, teste e produto
 echo "concluído: db/bases_tratadas/ atualizada"
